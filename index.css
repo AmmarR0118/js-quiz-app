@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(71, 128, 252);
+}
+#result {
+    background-color: white;
+    width: 60vw;
+    height: 60vh;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 60px #ccc;
+}
+#result button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding: 4px 18px;
+    background-color: rgb(70, 123, 223);
+    border: none;
+    border-radius: 2px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#result button:hover {
+    background-color: black;
+}
+#cpanel {
+    width: 614.4px;
+    height: 350px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px rgb(78, 78, 78);
+}
+#title-wrapper {
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0px 2px 6px rgb(119, 119, 119);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p {
+    padding: 0px;
+    margin: 0px 2px;
+}
+.time {
+    background-color: rgb(141, 190, 230);
+    color: rgb(48, 112, 230);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+.time-wrap {
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    text-align: center;
+    margin: 0px 0px 0px 4px;
+    width: 48px;
+    border-radius: 4px;
+    color: white;
+}
+#question {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 18px;
+    height: 52px;
+}
+
+.options {
+    padding: 4px 0px;
+    margin: 0px 18px 8px 18px;
+    background-color: rgb(186, 206, 186);
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1);
+}
+.next {
+    padding: 4px 0px;
+    margin: 0px 18px 8px 18px;
+    background-color: rgb(88, 206, 88);
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1);
+}
+.options:hover {
+    background-color: rgb(88, 206, 88);
+}
+#opt-no {
+    padding: 5px 13px;
+    color: white;
+    background-color: rgb(70, 123, 223);
+}
+#cpanel div:nth-child(5) span:first-child {
+    padding: 5px 12px;
+}
+input {
+    display: none;
+}
+hr {
+    margin-top: 20px;
+}
+#bottom {
+    margin: 0px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#next-btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    padding: 3px 18px;
+    background-color: rgb(70, 123, 223);
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#next-btn:hover {
+    background-color: black;
+}

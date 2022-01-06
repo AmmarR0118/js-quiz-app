@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="result">
+        <div>
+            <span>Your score is: </span>
+            <span id="score"></span>
+        </div>
+        <button id="btn" onclick="startOver()">Start Over</button>
+    </div>
+    <div id="cpanel">
+        <div id="title-wrapper">
+            <div id="title">Awesome Quiz Application</div>
+            <div class="time">Time Left
+                <div class="time-wrap">
+                    <p id="1" class="minutes" >01</p>:
+                    <p class="sec">59</p>
+                </div>
+            </div>
+        </div>
+        <div id="question">
+        </div>
+        <div id="options" class="options">
+            <span id="opt-no">A</span>
+            <input type="radio" id="opt1" name="option">
+            <span id="optt1"></span>
+        </div>
+        <div id="options" class="options">
+            <span id="opt-no">B</span>
+            <input type="radio" id="opt2" name="option">
+            <span id="optt2"></span>
+        </div>
+        <div id="options" class="options">
+            <span id="opt-no">C</span>
+            <input type="radio" id="opt3" name="option">
+            <span id="optt3"></span>
+        </div>
+        <div id="options" class="options">
+            <span id="opt-no">D</span>
+            <input type="radio" id="opt4" name="option">
+            <span id="optt4"></span>
+        </div>
+        <hr>
+        <div id="bottom">
+            <div>
+                <span id="question-no">1</span>
+                <span> of 5 Questions</span>
+            </div>
+            <button id="next-btn" onclick="checkAnswer()">Next</button>
+        </div>
+       
+    </div>
+
+    <script src="data.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
